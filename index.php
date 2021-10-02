@@ -43,7 +43,7 @@
 }
 
 #backToTop:hover {
-	background-color: #555; /* Add a dark-grey background on hover */
+	background-color: #000000; /* Add a dark-grey background on hover */
 }
 </style>
 
@@ -80,13 +80,13 @@
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container-fluid">
-			<!-- <a class="navbar-brand"><img src="images/logo.png" alt="logo"
-				width=140 height="80"> </a> -->
+			<a class="navbar-brand"><img src="images/logo.png" alt="logo"
+				width="200" height="50"> </a>
 
-			<video id="vid" width="150" autoplay muted loop>
+			<!-- <video id="vid" width="150" autoplay muted loop>
 				<source src="images/logo.mp4" type="video/mp4">
 				<source src="movie.ogg" type="video/ogg">
-			</video>
+			</video> -->
 
 			<div
 				class="collapse navbar-collapse justify-content-evenly container-fluid">
@@ -105,11 +105,10 @@
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
 					<!-- <li class="nav-item"><a class="nav-link active"
 						aria-current="page">links&gt;</a></li> -->
-
-
 					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 					<li class="nav-item"><a class="nav-link" href="#skill">Skill</a></li>
 					<li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+					<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
 					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
 				</ul>
 			</div>
@@ -200,6 +199,8 @@
 		</div>
 	</div>
 
+
+
 	<!-- experience -->
 	<div class="row g-0 d-flex p-2 justify-content-evenly" id="experience">
 		<nav class="d-flex p-2 justify-content-start border">
@@ -235,13 +236,51 @@
 		</div>
 	</div>
 
+	<!-- education -->
+	<div class="row g-0 d-flex p-2 justify-content-evenly" id="education">
+		<nav class="d-flex p-2 justify-content-start border">
+			<span class="mb-0 h3">Education</span>
+		</nav>
+		<div class="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
+			<p>
+				<img src="images/education.png" width="200" height="200"
+					class="img-fluid" alt="experience">
+			</p>
+		</div>
+		<div class="col-6 col-md-6">
+			<br> <b> Education Path</b>
+			<ul>
+				<li>Thakur college of science &amp; commerce (Degree College)
+					[2015-2018]
+					<ul>
+						<li><strong>Course:</strong>&nbsp;&nbsp;Bsc I.T.</li>
+						<li><strong>Average:</strong>&nbsp;&nbsp;76.06%</li>
+					</ul>
+				</li>
+				<li>Thakur college of science &amp; commerce (Junior College)
+					[2013-2015]
+					<ul>
+						<li><strong>Course:</strong>&nbsp;&nbsp;Commerce I.T.</li>
+						<li><strong>XII<sup>th</sup>:
+						</strong>&nbsp;&nbsp;85.38%</li>
+					</ul>
+				</li>
+				<li>Samata Vidya Mandir [2003-2013]
+					<ul>
+						<li><strong>X<sup>th</sup>:
+						</strong>&nbsp;&nbsp;67.09%</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
 
 	<!-- contact -->
 	<div class="row g-0 d-flex p-2 justify-content-evenly" id="contact">
 		<nav class="d-flex p-2 justify-content-start border">
 			<span class="mb-0 h3">Contact</span>
 		</nav>
-		<div class="col-6 col-md-6">
+		<div class="col-6 col-md-6 justify-content-evenly">
 			<table class="table table-borderless">
 				<tr>
 					<td><a class="alert"
@@ -252,6 +291,10 @@
 					<td><a class="alert" href="mailto:arvindchoudhary142@yahoo.in"><img
 							src="images/mailbox.gif" class="rounded-circle img-fluid"
 							alt="mailBox" width="30" height="30"> </a></td>
+
+					<td><a class="alert" href="https://github.com/Arvind142"><img
+							src="images/github.gif" class="rounded-circle img-fluid"
+							alt="github" width="30" height="30"> </a></td>
 				</tr>
 			</table>
 		</div>
