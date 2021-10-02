@@ -4,7 +4,7 @@
 <head>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>WebSite</title>
+<title>Portfolio</title>
 <!-- scripts -->
 
 
@@ -80,8 +80,13 @@
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container-fluid">
-			<a class="navbar-brand"><img src="images/logo.png" alt="logo"
-				width=140 height="80"> </a>
+			<!-- <a class="navbar-brand"><img src="images/logo.png" alt="logo"
+				width=140 height="80"> </a> -->
+
+			<video id="vid" width="150" autoplay muted loop>
+				<source src="images/logo.mp4" type="video/mp4">
+				<source src="movie.ogg" type="video/ogg">
+			</video>
 
 			<div
 				class="collapse navbar-collapse justify-content-evenly container-fluid">
@@ -240,9 +245,10 @@
 			<table class="table table-borderless">
 				<tr>
 					<td><a class="alert"
-						href="https://www.linkedin.com/in/arvind-choudhary-0b0a82171/" target="_blank"><img
-							src="images/linkedin.gif" class="rounded-circle img-fluid"
-							alt="linkedIn" width="30" height="30"></a></td>
+						href="https://www.linkedin.com/in/arvind-choudhary-0b0a82171/"
+						target="_blank"><img src="images/linkedin.gif"
+							class="rounded-circle img-fluid" alt="linkedIn" width="30"
+							height="30"></a></td>
 					<td><a class="alert" href="mailto:arvindchoudhary142@yahoo.in"><img
 							src="images/mailbox.gif" class="rounded-circle img-fluid"
 							alt="mailBox" width="30" height="30"> </a></td>
