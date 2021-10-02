@@ -292,9 +292,10 @@
 							src="images/mailbox.gif" class="rounded-circle img-fluid"
 							alt="mailBox" width="30" height="30"> </a></td>
 
-					<td><a class="alert" href="https://github.com/Arvind142"><img
-							src="images/github.gif" class="rounded-circle img-fluid"
-							alt="github" width="30" height="30"> </a></td>
+					<td><a class="alert" href="https://github.com/Arvind142"
+						target="_blank"><img src="images/github.gif"
+							class="rounded-circle img-fluid" alt="github" width="30"
+							height="30"> </a></td>
 				</tr>
 			</table>
 		</div>
