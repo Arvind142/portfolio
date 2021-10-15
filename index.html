@@ -1,103 +1,105 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfolio</title>
-<!-- scripts -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio</title>
+	<!-- scripts -->
 
 
-<script
-	src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-	integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-	crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+		integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
+		crossorigin="anonymous"></script>
 
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-	integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-	crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+		integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
+		crossorigin="anonymous"></script>
 
-<script
-	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-	integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-	crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+		crossorigin="anonymous"></script>
 
-<link
-	href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-	rel="stylesheet"
-	integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-	crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-<style>
-#backToTop {
-	display: none; /* Hidden by default */
-	position: fixed; /* Fixed/sticky position */
-	bottom: 20px; /* Place the button at the bottom of the page */
-	right: 30px; /* Place the button 30px from the right */
-	z-index: 99; /* Make sure it does not overlap */
-	outline: none; /* Remove outline */
-	padding: 15px; /* Some padding */
-	border-radius: 10px; /* Rounded corners */
-	font-size: 18px; /* Increase font size */
-}
-
-#backToTop:hover {
-	background-color: #000000; /* Add a dark-grey background on hover */
-}
-</style>
-
-
-<script>
-	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function() {
-		scroll_Function_Custom()
-	};
-
-	function scroll_Function_Custom() {
-
-		//Get the button
-		var mybutton = document.getElementById("backToTop");
-
-		if (document.body.scrollTop > 20
-				|| document.documentElement.scrollTop > 20) {
-			mybutton.style.display = "block";
-		} else {
-			mybutton.style.display = "none";
+	<style>
+		#backToTop {
+			display: none;
+			/* Hidden by default */
+			position: fixed;
+			/* Fixed/sticky position */
+			bottom: 20px;
+			/* Place the button at the bottom of the page */
+			right: 30px;
+			/* Place the button 30px from the right */
+			z-index: 99;
+			/* Make sure it does not overlap */
+			outline: none;
+			/* Remove outline */
+			padding: 15px;
+			/* Some padding */
+			border-radius: 10px;
+			/* Rounded corners */
+			font-size: 18px;
+			/* Increase font size */
 		}
-	}
 
-	// When the user clicks on the button, scroll to the top of the document
-	function top_scroll_frame_custom() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
-	}
-</script>
+		#backToTop:hover {
+			background-color: #000000;
+			/* Add a dark-grey background on hover */
+		}
+	</style>
+
+
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () {
+			scroll_Function_Custom()
+		};
+
+		function scroll_Function_Custom() {
+
+			//Get the button
+			var mybutton = document.getElementById("backToTop");
+
+			if (document.body.scrollTop > 20
+				|| document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function top_scroll_frame_custom() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
 </head>
+
 <body>
 
 	<!-- Header -->
 
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 		<div class="container-fluid">
-			<a class="navbar-brand"><img src="images/logo.png" alt="logo"
-				width="200" height="50"> </a>
+			<a class="navbar-brand"><img src="images/logo.png" alt="logo" width="200" height="50"> </a>
 
 			<!-- <video id="vid" width="150" autoplay muted loop>
 				<source src="images/logo.mp4" type="video/mp4">
 				<source src="movie.ogg" type="video/ogg">
 			</video> -->
 
-			<div
-				class="collapse navbar-collapse justify-content-evenly container-fluid">
+			<div class="collapse navbar-collapse justify-content-evenly container-fluid">
 				<h3>
 					Arvind Choudhary, <small class="text-muted">Automation
 						Tester</small>
 				</h3>
 			</div>
-			<button class="navbar-toggler" type="button"
-				data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-				aria-controls="navbarSupportedContent" aria-expanded="false"
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 				aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -125,8 +127,7 @@
 		</nav>
 		<div class="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
 			<p>
-				<img src="images/about.png" width="200" height="200"
-					class="img-fluid" alt="about">
+				<img src="images/about.png" width="200" height="200" class="img-fluid" alt="about">
 			</p>
 		</div>
 		<div class="col-6 col-md-6">
@@ -154,8 +155,7 @@
 		</nav>
 		<div class="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
 			<p>
-				<img src="images/skill.png" width="200" height="200"
-					class="img-fluid" alt="skill">
+				<img src="images/skill.png" width="200" height="200" class="img-fluid" alt="skill">
 			</p>
 		</div>
 		<div class="col-6 col-md-6">
@@ -185,10 +185,28 @@
 				</li>
 				<li>Automation
 					<ul>
-						<li>Selenium - Browser automation</li>
-						<li>Leanft - Window automation</li>
-						<li>Winnium - Window automation</li>
-						<li>RestAssured - API automation</li>
+						<li> Browser
+							<ul>
+								<li>Selenium</li>
+								<li class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top"
+									title="Learning">Cypress</li>
+							</ul>
+						</li>
+
+						<li> Window
+							<ul>
+								<li>Leanft/UFT Developer</li>
+								<li>Winnium</li>
+							</ul>
+						</li>
+
+						<li> API
+							<ul>
+								<li>RestAssured Java Library</li>
+								<li class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top"
+									title="Learning">Karate DSL</li>
+							</ul>
+						</li>
 					</ul>
 				</li>
 				<li>Cucumber - BDD</li>
@@ -208,8 +226,7 @@
 		</nav>
 		<div class="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
 			<p>
-				<img src="images/experience.png" width="200" height="200"
-					class="img-fluid" alt="experience">
+				<img src="images/experience.png" width="200" height="200" class="img-fluid" alt="experience">
 			</p>
 		</div>
 		<div class="col-6 col-md-6">
@@ -243,8 +260,7 @@
 		</nav>
 		<div class="col-sm-6 col-md-6 d-flex p-2 justify-content-evenly">
 			<p>
-				<img src="images/education.png" width="200" height="200"
-					class="img-fluid" alt="experience">
+				<img src="images/education.png" width="200" height="200" class="img-fluid" alt="experience">
 			</p>
 		</div>
 		<div class="col-6 col-md-6">
@@ -262,13 +278,13 @@
 					<ul>
 						<li><strong>Course:</strong>&nbsp;&nbsp;Commerce I.T.</li>
 						<li><strong>XII<sup>th</sup>:
-						</strong>&nbsp;&nbsp;85.38%</li>
+							</strong>&nbsp;&nbsp;85.38%</li>
 					</ul>
 				</li>
 				<li>Samata Vidya Mandir [2003-2013]
 					<ul>
 						<li><strong>X<sup>th</sup>:
-						</strong>&nbsp;&nbsp;67.09%</li>
+							</strong>&nbsp;&nbsp;67.09%</li>
 					</ul>
 				</li>
 			</ul>
@@ -283,19 +299,15 @@
 		<div class="col-6 col-md-6 justify-content-evenly">
 			<table class="table table-borderless">
 				<tr>
-					<td><a class="alert"
-						href="https://www.linkedin.com/in/arvind-choudhary-0b0a82171/"
-						target="_blank"><img src="images/linkedin.gif"
-							class="rounded-circle img-fluid" alt="linkedIn" width="30"
-							height="30"></a></td>
-					<td><a class="alert" href="mailto:arvindchoudhary142@yahoo.in"><img
-							src="images/mailbox.gif" class="rounded-circle img-fluid"
-							alt="mailBox" width="30" height="30"> </a></td>
+					<td><a class="alert" href="https://www.linkedin.com/in/arvind-choudhary-0b0a82171/"
+							target="_blank"><img src="images/linkedin.gif" class="rounded-circle img-fluid"
+								alt="linkedIn" width="30" height="30"></a></td>
+					<td><a class="alert" href="mailto:arvindchoudhary142@yahoo.in"><img src="images/mailbox.gif"
+								class="rounded-circle img-fluid" alt="mailBox" width="30" height="30"> </a></td>
 
-					<td><a class="alert" href="https://github.com/Arvind142"
-						target="_blank"><img src="images/github.gif"
-							class="rounded-circle img-fluid" alt="github" width="30"
-							height="30"> </a></td>
+					<td><a class="alert" href="https://github.com/Arvind142" target="_blank"><img
+								src="images/github.gif" class="rounded-circle img-fluid" alt="github" width="30"
+								height="30"> </a></td>
 				</tr>
 			</table>
 		</div>
@@ -307,8 +319,8 @@
 
 
 	<!-- go to TOP button -->
-	<button onclick="top_scroll_frame_custom()"
-		class="btn btn-outline-secondary" style="width: 100px;" id="backToTop"
+	<button onclick="top_scroll_frame_custom()" class="btn btn-outline-secondary" style="width: 100px;" id="backToTop"
 		title="Go to top">Top</button>
 </body>
+
 </html>
