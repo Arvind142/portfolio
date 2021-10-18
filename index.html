@@ -192,17 +192,16 @@
 									title="Learning">Cypress</li>
 							</ul>
 						</li>
-
 						<li> Window
 							<ul>
 								<li>Leanft/UFT Developer</li>
 								<li>Winnium</li>
 							</ul>
 						</li>
-
 						<li> API
 							<ul>
 								<li>RestAssured Java Library</li>
+								<li>Postman</li>
 								<li class="text-muted" data-bs-toggle="tooltip" data-bs-placement="top"
 									title="Learning">Karate DSL</li>
 							</ul>
