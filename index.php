@@ -5,6 +5,9 @@
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Portfolio</title>
+	<!-- Adv script -->
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2420299522844458"
+     crossorigin="anonymous"></script>
 	<!-- scripts -->
 
 
