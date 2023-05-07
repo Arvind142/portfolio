@@ -94,13 +94,14 @@
 				onmouseover="click(this)">Education</button>
 	</li>
 </ul>
+
 <div class="tab-content" id="pills-tabContent">
 	<div class="tab-pane fade show active" id="pills-default" role="tabpanel" aria-labelledby="pills-default-tab">
 		<!-- Defautl Frame -->
 		<div class="position-relative">
 			<div class="alert alert-primary position-absolute top-50 start-50 translate-middle-x" id="defaultPanel"
 				 role="alert">
-				Try to hovermouse over to any of the button shown above!
+				Try to hovermouse over to any of the button shown above! <br>
 			</div>
 		</div>
 	</div>
@@ -334,6 +335,12 @@
 <!-- go to TOP button -->
 <button onclick="top_scroll_frame_custom()" class="btn btn-outline-secondary" style="width: 100px;" id="backToTop"
 		title="Go to top">Top</button>
+		
+	<div class="alert alert-warning alert-dismissible fade show" role="alert">
+		<div class="screenPage"><strong>Print Page?</strong> Try Ctrl+P (Windows) / Command+P (Mac) to take full page print!</div>
+		<div class="printPage"><strong>Thank You!</strong></div>
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	  </div>
 </body>
 
 </html>

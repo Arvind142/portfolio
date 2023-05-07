@@ -23,3 +23,10 @@ h3 {
 #backToTop {
   display: none;
 }
+
+.printPage{
+    display: block;
+  }
+  .screenPage{
+    display: none;
+  }
