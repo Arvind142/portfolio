@@ -1,0 +1,25 @@
+h3 {
+  font-family: monospace;
+}
+
+#defaultPanel {
+  display: none;
+}
+
+#pills-about {
+  display: block;
+}
+#pills-skills {
+  display: block;
+  opacity: 100%;
+}
+
+#pills-experience {
+  display: block;
+}
+#pills-education {
+  display: block;
+}
+#backToTop {
+  display: none;
+}
